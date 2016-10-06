@@ -16,9 +16,17 @@ public class JavaApplication3 {
      */
     
     public static void main(String[] args) {
-        for (int i = 1; i < 5; i++);
-        System.out.println(i);
+        for (int i = 0; i < 100; i++) {
+        
+        System.out.println(i+1);
 
-    }
-    
+        }   
+        for(int x = 0; x < 15; x++) {
+            
+        System.out.println(x);
+        }
 }
+        
+}  
+    
+
