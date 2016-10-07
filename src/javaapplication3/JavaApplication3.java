@@ -5,6 +5,8 @@
  */
 package javaapplication3;
 
+import java.util.Scanner;
+
 /**
  *
  * @author student
@@ -14,19 +16,16 @@ public class JavaApplication3 {
     /**
      * @param args the command line arguments
      */
-    
-    public static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
-        
-        System.out.println(i+1);
 
-        }   
-        for(int x = 0; x < 15; x++) {
-            
-        System.out.println(x);
-        }
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+ 
+        System.out.println(i+1);
+        
 }
         
 }  
-    
 
+    
