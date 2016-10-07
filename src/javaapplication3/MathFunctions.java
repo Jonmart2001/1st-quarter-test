@@ -12,9 +12,10 @@ package javaapplication3;
 public class MathFunctions {
 
     public static void SquareRootAndAddThree(String[] args) {
-        Math.sqrt(100);
-        return Math.sqrt
-        
-        System.out.println();
+//        Math.sqrt(100);
+//       
+//        return Math.sqrt
+//        
+//        System.out.println();
     }
 }
