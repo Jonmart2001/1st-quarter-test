@@ -22,7 +22,7 @@ public class JavaApplication3 {
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
  
-        System.out.println(i+1);
+        System.out.println(i);
         
 }
         

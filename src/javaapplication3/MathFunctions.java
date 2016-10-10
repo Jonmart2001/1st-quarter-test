@@ -17,5 +17,10 @@ public class MathFunctions {
 //        return Math.sqrt
 //        
 //        System.out.println();
+          Math.sqrt(100);
+    
+          return Math.sqrt
+                  
+          System.out.println();
     }
 }
