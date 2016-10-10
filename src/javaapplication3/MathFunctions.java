@@ -11,16 +11,25 @@ package javaapplication3;
  */
 public class MathFunctions {
 
-    public static void SquareRootAndAddThree(String[] args) {
-//        Math.sqrt(100);
-//       
-//        return Math.sqrt
-//        
-//        System.out.println();
-          Math.sqrt(100);
-    
-          return Math.sqrt
+    public static void SquareRootAndAddThree(int i) {
+    List<MathFunctions> result = new ArrayList();
+        double rag = Math.sqrt(i);
+        boolean done = false;
+        double j = rag;
+        while (!done) {
+            j++;
+                  if (j == rag +3)  {
+                      done = true;
+                  }
+        }
+        result.add(new result(j)); 
+        if (j > 1000) {
+            double sum = 0; 
+            for (int i = 0; i < result.size(); i++);        
+                }
+        
+          
                   
-          System.out.println();
+  
     }
 }
