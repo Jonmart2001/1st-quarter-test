@@ -42,8 +42,21 @@ public class JavaApplication3 {
                 for (Double dbl : numbers) {
                     sum += dbl;
                 }
-                
-                       
+                System.out.print("Enter a number: ");
+                int number = input.nextInt();
+
+                if (number == 0) {
+                    System.out.println("Number is equal to zero");
+                } else if (number > 0) {
+                    System.out.println("Number is positive");
+                } else {
+                    System.out.println("Number is negative");
+                }
+
+            }
+        }
+
+
                 
                 
          
