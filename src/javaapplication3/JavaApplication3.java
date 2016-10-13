@@ -8,6 +8,7 @@ package javaapplication3;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -21,7 +22,7 @@ public class JavaApplication3 {
      */
 
     public static void main(String[] args) {
-        List<Integer> numbers = new ArrayList();
+        List<Double> numbers = new ArrayList();
         Scanner sc = new Scanner(System.in);
         System.out.println("Please give me an integer:");
         int num = sc.nextInt();
@@ -29,7 +30,7 @@ public class JavaApplication3 {
             System.out.println(i);
            
         }
-        System.out.println("Give me another number:");
+        System.out.println("Give me another integer:");
         num += sc.nextInt();
         
         if (num > 0) {
@@ -43,16 +44,17 @@ public class JavaApplication3 {
                     sum += dbl;
                 }
                 System.out.print("Enter a number: ");
-                int number = input.nextInt();
+                int number = sc.nextInt();
 
-                if (number == 0) {
-                    System.out.println("Number is equal to zero");
-                } else if (number > 0) {
+               if (number > 0) {
                     System.out.println("Number is positive");
                 } else {
                     System.out.println("Number is negative");
                 }
-
+                       
+              //AP Requirment
+        JOptionPane.showMessage
+        
             }
         }
 
@@ -63,10 +65,5 @@ public class JavaApplication3 {
                 
             }
         }
-        
-        
-}
-        
-}  
 
     
