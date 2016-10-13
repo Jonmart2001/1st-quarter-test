@@ -13,8 +13,7 @@ public class MathFunctions {
 
     public static double SquareRootAndAddThree(double input) {
         return Math.sqrt(input)+3;
-        }
-    public static double()
+       }
 
 
 
