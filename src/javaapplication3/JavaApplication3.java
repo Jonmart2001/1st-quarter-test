@@ -53,11 +53,12 @@ public class JavaApplication3 {
                 }
                        
               //AP Requirment
-        JOptionPane.showMessage
+        
         
             }
-        }
-
+        }// end class InstallationDialog
+JOptionPane.showMessageDialog(null, "Before starting the installation, " +"shut dowmn all applications .");
+        String stuff = JOptionPane.showInputDialog(null, "Radius");
 
                 
                 
